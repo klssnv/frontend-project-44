@@ -6,3 +6,10 @@ brain-games:
 
 publish:
 	npm publish --dry-run
+
+install-readline:
+	npm install readline-sync
+
+lint:
+	npx eslint .
+
